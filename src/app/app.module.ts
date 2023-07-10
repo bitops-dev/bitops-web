@@ -11,7 +11,6 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
 import { BitopsModule } from './bitops/bitops.module';
-import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -19,7 +18,6 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,

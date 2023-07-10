@@ -8,7 +8,6 @@ import { ProfileComponent } from './bitops/profile/profile.component';
 import { SignupComponent } from './bitops/signup/signup.component';
 import { LandingComponent } from './bitops/landing/landing.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
-import { HomeComponent } from './home/home.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
