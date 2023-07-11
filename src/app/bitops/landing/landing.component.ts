@@ -21,7 +21,6 @@ export class LandingComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.currentHour = 15
     this.bg_path = "../../../assets/img/day_night/" + this.currentHour + ".jpg"
     // const element = this.renderer.selectRootElement('#upper_part');
     // const imagePath = `url('${this.bg_path}')`; // Assuming this.bg_path contains the image path
