@@ -27,5 +27,8 @@ export class LandingComponent implements OnInit {
     // const imagePath = `url('${this.bg_path}')`; // Assuming this.bg_path contains the image path
     // this.renderer.setStyle(element, 'background-image', imagePath);
   }
+  goToServicePage() {
+    this.router.navigate(['/services']);
 
+  }
 }
