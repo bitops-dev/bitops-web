@@ -1,0 +1,59 @@
+<div class="main">
+
+    <div class="section section-dark section-nucleo-icons pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="title">Our services</h1><br />
+                    <p class="description">
+                        Transform your business with our advanced IT services. Our expert team delivers tailored
+                        solutions across software development, network infrastructure, data security, and cloud
+                        integration. We optimize your operations, enhance productivity, and drive sustainable growth.
+                        Partner with us to harness the power of technology and gain a competitive edge. Experience
+                        reliable and strategic IT services that propel your success.
+                    </p><br />
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="icons-container">
+                        <i class="nc-icon nc-time-alarm"></i>
+                        <i class="nc-icon nc-atom"></i>
+                        <i class="nc-icon nc-camera-compact"></i>
+                        <i class="nc-icon nc-watch-time"></i>
+                        <i class="nc-icon nc-key-25"></i>
+                        <i class="nc-icon nc-diamond"></i>
+                        <i class="nc-icon nc-user-run"></i>
+                        <i class="nc-icon nc-layout-11"></i>
+                        <i class="nc-icon nc-badge"></i>
+                        <i class="nc-icon nc-bulb-63"></i>
+                        <i class="nc-icon nc-favourite-28"></i>
+                        <i class="nc-icon nc-planet"></i>
+                        <i class="nc-icon nc-tie-bow"></i>
+                        <i class="nc-icon nc-zoom-split"></i>
+                        <i class="nc-icon nc-cloud-download-93"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-dark section-nucleo-icons pt-3">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-5 p-0 m-3 col rounded" [style.background-image]="'url(' + service.img + ')'"
+                    [style.background-size]="'cover'" *ngFor="let service of services">
+                    <h3 class="title p-4">{{ service.name }}</h3>
+                    <br><br><br><br>
+                    <div></div>
+                    <div style="background-color: rgba(0, 0, 0, 0.9);">
+                        <p class="description text-justify ml-3 mr-3 mb-0">
+                            {{ service.description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
