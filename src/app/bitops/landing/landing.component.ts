@@ -28,6 +28,8 @@ export class LandingComponent implements OnInit {
   }
   goToServicePage() {
     this.router.navigate(['/services']);
-
+  }
+  goToAcademyLanding() {
+    this.router.navigate(['/academy']);
   }
 }

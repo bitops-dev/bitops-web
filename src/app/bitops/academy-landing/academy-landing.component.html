@@ -1,0 +1,89 @@
+<div class="main">
+
+    <div class="section section-dark section-nucleo-icons pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="title">Bitops academy</h1><br />
+                    <p class="description">
+
+                        Welcome to our academy, where we offer a range of courses to enhance your skills in the rapidly
+                        evolving world of technology. From Azure and AWS cloud computing to Angular web app development,
+                        database management (SQL), and Python programming, our courses are designed to cater to
+                        beginners and professionals alike. With hands-on learning experiences and industry expert
+                        instructors, our academy provides you with the knowledge and practical skills needed to thrive
+                        in the technology industry. Join us and unlock your potential in the digital age.
+                    </p><br />
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="icons-container">
+                        <img src="../../../assets/img/academy_bg.png" class="img-fluid">
+                        <a href="https://www.creative-tim.com/product/paper-kit-2-pro-angular?ref=pk2-angular-free-local"
+                            target="_blank" class="btn btn-warning btn-round center" (click)="goToLink()">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-dark section-nucleo-icons pt-3">
+        <div class="container">
+            <h1 class="title">Click on below cources To know more</h1>
+            <img class="img-fluid m-3" src="../../../assets/img/cources/azure_eczar.png" style="max-width: 300px;"
+                (click)="clickSelectedCource('Azure cloud computing')">
+            <img class="img-fluid m-3" src="../../../assets/img/cources/aws_eczar.png" style="max-width: 300px;"
+                (click)="clickSelectedCource('AWS cloud computing')">
+            <img class="img-fluid m-3" src="../../../assets/img/cources/angular_eczar.png" style="max-width: 300px;"
+                (click)="clickSelectedCource('Angular web app development')">
+            <img class="img-fluid m-3" src="../../../assets/img/cources/sql_eczar.png" style="max-width: 300px;"
+                (click)="clickSelectedCource('Database management (SQL)')">
+            <img class="img-fluid m-3" src="../../../assets/img/cources/python_eczar.png" style="max-width: 300px;"
+                (click)="clickSelectedCource('Python zero to hero')">
+
+            <!-- <button type=" button" class="btn btn-outline-default btn-round"
+                (click)="clickSelectedCource('Azure cloud computing')">Azure cloud computing.
+            </button>
+            <button type="button" class="btn btn-outline-primary btn-round"
+                (click)="clickSelectedCource('AWS cloud computing')">AWS cloud computing.</button>
+            <button type="button" class="btn btn-outline-info btn-round"
+                (click)="clickSelectedCource('Angular web app development')">Angular web app development.</button>
+            <button type="button" class="btn btn-outline-success btn-round"
+                (click)="clickSelectedCource('Database management (SQL)')">Database management (SQL).</button>
+            <button type="button" class="btn btn-outline-warning btn-round"
+                (click)="clickSelectedCource('Python zero to hero')">Python zero to hero.</button> -->
+            <!-- </div> -->
+            <br>
+            <!-- <div class="col" *ngIf="selected_cource_name">
+                <div class="row">
+                    <h2 class="title">{{selected_cource_name}}</h2>
+                    <br>
+                    <div>
+                        <img src="../../../assets/img/aws_logo.png" class="img-fluid" style="max-width: 50%; 
+                    float: left;">
+                    </div>
+                    <div style="width: 100%;" *ngFor="let cource of selected_cource | keyvalue">
+                        <div style="background-color: coral; width: 100%;">
+                            <h2 class="title">{{ cource.key }}</h2>
+                        </div>
+                        <h3 class="title" *ngFor="let cource_day of cource.value | keyvalue">{{ cource_day.key}} :
+                            {{cource_day.value}}</h3>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <!-- <div class="row justify-content-around">
+                <div class="col-lg-5 p-0 m-3 col rounded" [style.background-image]="'url(' + service.img + ')'"
+                    [style.background-size]="'cover'" *ngFor="let service of services">
+                    <h3 class="title p-4 shadow" style="background-color: rgba(0, 0, 0, 0.7);">{{ service.name }}</h3>
+                    <br><br><br><br>
+                    <div></div>
+                    <div style=" background-color: rgba(0, 0, 0, 0.9);">
+                        <p class="description text-justify ml-3 mr-3 mb-0">
+                            {{ service.description }}
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+    </div>
+</div>

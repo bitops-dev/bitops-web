@@ -7,6 +7,7 @@ import { LandingComponent } from './landing/landing.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { ServicesPageComponent } from './services-page/services-page.component';
+import { AcademyLandingComponent } from './academy-landing/academy-landing.component';
 
 @NgModule({
     imports: [
@@ -18,7 +19,8 @@ import { ServicesPageComponent } from './services-page/services-page.component';
         LandingComponent,
         SignupComponent,
         ProfileComponent,
-        ServicesPageComponent
+        ServicesPageComponent,
+        AcademyLandingComponent
     ]
 })
 export class BitopsModule { }
